@@ -11,8 +11,8 @@ Download the dataset from this [link](https://huggingface.co/datasets/amcretu/ic
 To download the dataset images, create an environment using the following commands:
 
 ```
-conda create -n ccw python=3.11.8
-conda activate ccw
+conda create -n iccwd python=3.11.8
+conda activate iccwd
 conda install pip
 
 pip install opencv-python pandas pdqhash pillow requests tqdm
