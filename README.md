@@ -2,6 +2,8 @@
 
 We provide the code to download images of ICCWD and evaluate three different minor detection methods on it.
 
+The code can be run on a commodity laptop and does not require specific compute, as it queries external APIs.
+
 ## Dataset download
 
 Download the dataset from this [link](https://huggingface.co/datasets/amcretu/iccwd).
