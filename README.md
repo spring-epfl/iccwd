@@ -6,22 +6,23 @@ The code can be run on a commodity laptop and does not require specific compute,
 
 ## Dataset download
 
-Download the dataset from this [link](https://huggingface.co/datasets/amcretu/iccwd).
+The dataset is available on HuggingFace as this [link](https://huggingface.co/datasets/amcretu/iccwd).
 
-To download the dataset images, create an environment using the following commands:
+To download the images, create an environment using the following commands:
 
 ```
 conda create -n iccwd python=3.11.8
 conda activate iccwd
 conda install pip
 
-pip install opencv-python pandas pdqhash pillow requests tqdm
+pip install datasets opencv-python pandas pdqhash pillow requests tqdm
 ```
 
-Then run the following script:
+Then run the following scripts:
 
 ```
-python dataset_download_verify.py --folder=dataset
+python dataset_download_csv.py
+python dataset_download_images_verify.py --folder=dataset
 ```
 
 ## Code for minor detection methods
