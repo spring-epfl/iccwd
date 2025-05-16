@@ -34,7 +34,7 @@ To label the captions in the dataset using DeepSeek, install the following depen
 pip install openai scikit-learn
 ```
 
-Create an account on the DeepSeek platform and top it up with a small amount, e.g., 1$ (we used less than 0.25$ to label all the captions, but the price [varies](https://api-docs.deepseek.com/quick_start/pricing) varies during the day). Create an [api key](https://platform.deepseek.com/api_keys), download it and save it to a text file under `api_key.path`.
+Create an account on the DeepSeek platform and top it up with a small amount, e.g., 1$ (we used less than 0.25$ to label all the captions, but the price [varies](https://api-docs.deepseek.com/quick_start/pricing) during the day). Create an [api key](https://platform.deepseek.com/api_keys), download it and save it to a text file under `api_key.path`.
 
 Run the following script to label the captions:
 
@@ -64,7 +64,7 @@ python compute_amazon_labels.py
 
 ```
 
-The script outputs the TPR and FPR of the method as well as the ROC curve.
+The script outputs the TPR and FPR of the method and saves the ROC curve to `amazon_roc_curve.pdf`.
 
 ### Combined methods
 
