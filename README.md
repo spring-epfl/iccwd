@@ -2,7 +2,7 @@
 
 We provide the code to download images of ICCWD and evaluate three different minor detection methods on it.
 
-The code can be run on a commodity laptop and does not require specific compute, as it queries external APIs.
+The code can be run on a commodity laptop with 8 or more cores and does not require specific compute, as it queries external APIs.
 
 ## Dataset download
 
@@ -34,7 +34,7 @@ To label the captions in the dataset using DeepSeek, install the following depen
 pip install openai scikit-learn
 ```
 
-Create an account on the DeepSeek platform and top it up with a small amount, e.g., 1$ (we used less than 0.25$ to label all the captions, but the price [varies](https://api-docs.deepseek.com/quick_start/pricing) during the day). Create an [api key](https://platform.deepseek.com/api_keys), download it and save it to a text file under `api_key.path`.
+Create an account on the DeepSeek platform and top it up with a small amount, e.g., 1$ (we used less than 0.25$ to label all the captions, but the price [varies](https://api-docs.deepseek.com/quick_start/pricing) varies during the day). Create an [api key](https://platform.deepseek.com/api_keys), download it and save it to a text file under `api_key.path`.
 
 Run the following script to label the captions:
 
