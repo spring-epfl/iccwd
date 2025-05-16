@@ -73,6 +73,6 @@ To obtain results using the combined DeepSeek API with Amazon Rekognition Image,
 python compute_combined_labels.py --amazon_rule=min-range
 ```
 
-The script outputs the TPR and FPR of the combined method using the `min-range` classification rule. You can set `--amazon_rule=mid-range` to putput results using the `mid-range` classification rule.
+The script outputs the TPR and FPR of the combined method using the `min-range` classification rule. You can set `--amazon_rule=mid-range` to output results using the `mid-range` classification rule.
 
 
